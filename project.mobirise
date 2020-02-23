@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "notfallmedizin.blog",
-    "currentPage": "13.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -1941,7 +1941,7 @@
       "settings": {
         "meta_descr": "notfallmedizin.blog • Impressum • Disclaimer",
         "title": "ABOUT",
-        "order": 2
+        "order": 1
       },
       "components": [
         {
@@ -2486,7 +2486,7 @@
       "settings": {
         "meta_descr": "xABCDEF, cABCDEF, xABCDE, cABCDE, ABCDE",
         "title": "13",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
