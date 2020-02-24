@@ -118,10 +118,13 @@
             },
             ".mbr-text P": {
               "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#ff8f00"
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline=\"\" title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline=\"\" title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline=\"\" mbr-article=\"\" mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>\n                <b> Willkommen auf notfallmedizin.blog!</b><br></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#465052\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>\n                <b> Willkommen auf notfallmedizin.blog!</b></p><p><b>Die Seite befindet sich derzeit im Um- bzw. Wiederaufbau. </b></p><p><b>Die Artikel sollten binnen der kommenden 24 Stunden wieder verfügbar sein.&nbsp;<br></b><br></p></div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content1-2b",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -2718,7 +2721,7 @@
             }
           },
           "_name": "content4",
-          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">cABCDE / SAMPLE</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Aufgrund des zahlreichen positiven Feedbacks und der großen Nachfrage möchten wir an dieser Stelle nun endlich unsere Taschenkarte zum Download anbieten. <br>Viel Spaß damit und immer her mit der Kritik.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">MEHR INFO</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Gegen ärztlichen Rat</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Wenn Patienten eine Behandlung ablehnen, ist das zunächst einmal ihr gutes Recht. Bei nicht akut vital bedrohlichen Erkrankungen, z.B. zum Einholen einer Zweitmeinung ist ein Konsens auch meist schnell gefunden. Bei einer akuten oder potentiellen Lebensbedrohung sieht das aber schon anders aus.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">MEHR INFO</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "rRpGr9VN0V",
           "_protectedParams": [],
           "_global": false,
@@ -2737,77 +2740,13 @@
             }
           },
           "_name": "content1",
-          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Wir haben versucht, die präklinischen mit den innerklinischen Inhalten überein zu bringen. So wäre im Schockraum ein eFAST natürlich unter C anzusiedeln, während draußen oder bei innerklinischen Notfällen außerhalb des Schockraums eine sonographische Beurteilung nicht unbedingt verfügbar ist. Da es bei der <i>initialen</i>&nbsp; Beurteilung nicht vorgesehen ist, findet es sich eben auch in unserer Version weiter hinten bei dem erweiterten Monitoring.&nbsp;<br></p></div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>In der Regel sollte man davon ausgehen können, dass sich der Patient die Vorstellung in einer Notaufnahme nicht ausgesucht hat, auch wenn die Realität heutzutage leider viel zu oft anders aussieht. Somit hat sich der Patient auch den behandelnden Arzt nicht ausgesucht und wird vermutlich recht unvorbereitet mit zeitkritischen Entscheidungen konfrontiert, die mitunter überlebensrelevant sein können.</p><p>Wenn der Patientenwille nicht bekannt ist, weil der Patient ihn aktuell nicht mitteilen kann, handelt der Arzt zum Wohle des Patienten. Ethische Fragestellungen sollen an dieser Stelle erst einmal keine weitere Beachtung finden, die Problematik einer best-supportive- oder end-of-life-care oder einem Verzicht auf Wiederbelebung aus ärztlicher Sicht, etc. werden wir in einem separaten Artikel beleuchten.</p><p>Aber nicht selten erlebt man auch Situationen, in denen ein Patient nach der Initalbehandlung mit z.B. deutlicher Schmerzreduktion eine weitere Behandlung zum aktuellen Zeitpunkt ablehnt - nicht selten aus beruflichen, finanziellen oder anderen mehr oder weniger nachvollziehbaren Gründen.</p><p>Aber auch der offensichtlich unvernünftige Wille muss Beachtung finden, soviel vorweg - das gilt übrigens auch für demente Patienten, hier sollte man sich aber nach Möglichkeit mit der bevollmächtigten Betreuungsperson in Verbindung setzen . nicht selten erfolgt eine Vorstellung im Krankenhaus auch ohne und teilweise gegen die Absprache mit dem/der gesetzlichen Betreuer/in. Äußerst wichtig in allen denkbaren Fällen ist immer die ausführliche und gut dokumentierte Aufklärung des Patienten, bzw. Betreuungsperseon, denn der Patient kann eine Entscheidung nur dann treffen, wenn er vorher über die potentiellen Folgen informiert wurde und diese auch verstanden hat.&nbsp;</p><p>Zunächst ist zu klären, ob der Patient überhaupt klar orientiert und in der Lage ist, eine Entscheidung zu treffen, was sich vermeintlich leicht klären lässt: die Frage nach der Orientierung zu Zeit, Ort, Situation und Person sollte jeder problemlos beantworten können. Eine Dokumentation hierüber ist zu führen.</p><p>Des Weiteren sind 4 Fähigkeiten zu erörtern:</p><p>• Der Patient muss seine Entscheidung mitteilen können</p><p>• Er muss die relevanten Informationen verstehen und wiedergeben können.</p><p>• Er muss die Informationen und deren Relevanz auf seine eigene Situation anwenden können</p><p>• Er muss seine Entscheidung begründen können</p><p><br></p><p>Die folgenden Fragen können helfen, die Entscheidungsfähigkeit zu bestimmen:</p><p>• Haben sie sich entschieden, was sie machen wollen?</p><p>• Welche Risiken können sie für die Optionen, die wir besprochen haben, nennen?</p><p>• Was könnte passieren, wenn sie gar nichts machen / sich so entscheiden?</p><p>• Warum denken sie, dass das die beste Option für sie ist?</p><p>• Warum haben sie diese Entscheidung getroffen?</p><p><br></p><p><b>Exkurs:</b></p><p>Warum es rechtlich schwierig werden kann, ist wie folgt begründet:</p><p>Unterschieden wird zwischen einer Risikoaufklärung vor Beginn einer Behandlung und einer Sicherungsaufklärung während der Behandlungsdauer.</p><p>Risiken dürfen unter keinen Umständen verharmlost werden, auch der kurzfristig verfügbare Rettungsdienst und die Möglichkeit der Wiedervorstellung sollten nicht dazu führen, dass Patienten leichtfertig -wenn auch \"auf Wunsch\"- wieder entlassen werden.</p><p>Nach dem Gesetz besteht eine Pflicht zur Sicherungsaufklärung während der gesamten Behandlungsdauer und ist als Teil der Behandlung anzusehen, weshalb eine Verletzung dieser Pflicht keinen Aufklärungs- sondern einen Behandlungfehler darstellt.</p><p><br></p><p>Anaesthesist 2017 · 66:295–304<br><span style=\"font-size: 1rem;\">Med Klin Intensivmed Notfmed 2016 · 111:113–117<br></span><span style=\"font-size: 1rem;\">Med Klin Intensivmed Notfmed 2016 · 111:638–643<br></span><span style=\"font-size: 1rem;\">Anaesthesist 2010 · 59:312–318<br></span><span style=\"font-size: 1rem;\">HNO 2016 · 64:184–185<br></span><span style=\"font-size: 1rem;\">Ethik Med (2016) 28:195–205<br></span><span style=\"font-size: 1rem;\">Ethik Med (2016) 28:207–222<br></span><span style=\"font-size: 1rem;\">Lege artis 2014; 4: 8–13<br></span><span style=\"font-size: 1rem;\">DNP - Der Neurologe &amp; Psychiater 2016; 17 (6)</span></p><p><span style=\"font-size: 1rem;\">KK</span></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "rRpGraxGuX",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
           "_params": {},
           "_anchor": "content1-3l"
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background": "@bgColor",
-            ".images-container.container-fluid": {
-              "padding": "0"
-            },
-            ".media-container-row": {
-              "margin": "0 auto",
-              "align-items": "stretch",
-              "-webkit-align-items": "stretch",
-              ".img-item": {
-                "display": "-webkit-flex",
-                "flex-direction": "column",
-                "justify-content": "center",
-                "position": "relative",
-                "width": "100%",
-                "z-index": "1",
-                "-webkit-flex-direction": "column",
-                "-webkit-justify-content": "center",
-                "img": {
-                  "width": "100%",
-                  "min-height": "1px"
-                },
-                ".img-caption": {
-                  "background": "@cpBg",
-                  "z-index": "2",
-                  "padding": "1rem 1rem",
-                  "word-break": "break-word",
-                  "p": {
-                    "margin-bottom": "0"
-                  }
-                },
-                "&.item1": {
-                  "padding": "0 2rem 0 0"
-                }
-              },
-              "& when (@fullWidth)": {
-                "width": "100% !important"
-              }
-            },
-            "@media (max-width: 992px)": {
-              ".img-item": {
-                "width": "100% !important",
-                "&.item1": {
-                  "width": "100%",
-                  "flex-basis": "initial !important",
-                  "padding": "0 0 2rem 0 !important",
-                  "-webkit-flex-basis": "initial !important"
-                }
-              }
-            }
-          },
-          "_name": "image4",
-          "_customHTML": "<section group=\"Images & Videos\">\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <mbr-parameters>\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Full-Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Breite\" name=\"contentWidth\" min=\"66\" max=\"100\" value=\"66\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Größe\" name=\"proportions\" min=\"30\" max=\"300\" value=\"105\" step=\"1\">\n        <input type=\"checkbox\" title=\"Unterschrift Anzeigen\" name=\"showCaption\">\n        <input type=\"color\" title=\"Unterschrift-Hintergrund\" name=\"cpBg\" value=\"#ffffff\" condition=\"showCaption\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <!-- End block parameters -->\n    <div class=\"container images-container\" mbr-class=\"{'container-fluid':fullWidth,container:fullWidth==false}\">\n            <div class=\"media-container-row\" mbr-style=\"{'width':contentWidth+'%'}\">\n                <div class=\"img-item item1\" mbr-style=\"{'width':proportions+'%'}\">\n                    <img src=\"@PROJECT_PATH@/assets/images/cabcde.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Responsiv\n                        </p>\n                    </div>\n                </div>\n                <div class=\"img-item\">\n                    <img src=\"@PROJECT_PATH@/assets/images/sample.png\" alt title>\n                    <div class=\"img-caption\" mbr-if=\"showCaption\">\n                        <p class=\"mbr-fonts-style align-center mbr-black\" mbr-theme-style=\"display-7\">\n                            Mobile-freundlich\n                        </p>\n                    </div>\n                </div>\n            </div>\n    </div>\n</section>",
-          "_cid": "rRpGraQUOM",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {},
-          "_anchor": "image4-3m"
         },
         {
           "alias": false,
