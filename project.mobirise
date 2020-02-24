@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "notfallmedizin.blog",
-    "currentPage": "herzinsuffizienz.html",
+    "currentPage": "fehler.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -45,7 +45,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 196,
+    "uniqCompNum": 211,
     "versionPublish": "4.11.5",
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/klemmedic.gif",
@@ -4322,6 +4322,335 @@
           "_global": true,
           "_once": "footers",
           "_params": {}
+        }
+      ]
+    },
+    "nitro.html": {
+      "settings": {
+        "meta_descr": "notfallmedizin.blog, GTN bei ACS, nitro, gylceroltrinitrat, xABCDEF, cABCDEF, xABCDE, cABCDE, ABCDE",
+        "title": "GTN",
+        "order": 17,
+        "meta_image": "@PROJECT_PATH@/assets/images/heart-460546-436x327.jpg"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Glyceroltrinitrat (GTN, Nitro)</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Eine Risiko-Nutzen-Abwägung ist wie bei jedem Medikament sinnvoll. Dass GTN bei einem RRsyst&lt;90mmHg kontraindiziert ist, ist i.d.R. auch allen Anwendern bekannt. Eine weitere Kontraindikation laut Guidelines der American Heart Association (AHA) ist auch die Tachykardie - bei bisher schwacher Evidenz.&nbsp;</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">MEHR INFO</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqjOJMeDh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-5g"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\">Von 2010-2012 wurden nun retrospektiv prähospitale Einsätze bei \"chest pain\"-Patienten ausgewertet - insgesamt erhielten 10.308 Patienten GTN, 2.057 davon waren vor s.l.-Applikation tachykard (&gt;100/min)</span></p><p>Eine Hypotension wurde bei insgesamt  320 Patienten registriert (3.1%)</p><p>- bei 239 von 8251 Patienten ohne Tachykardie (vor GTN)</p><p>- bei 81 von 2057 Patienten mit Tachykardie (vor GTN)</p><p>Dementsprechend konnte statistisch signifikant nachgewiesen und somit bestätigt werden, dass eine vorbestehende Tachykardie einen Risikofaktor für Hypotension nach Gabe von Glyceroltrinitrat darstellt. Zudem fielen die Blutdruckabfälle bei tachykarden Patienten ausgeprägter aus.</p><p>Allerdings konnte man in der Untersuchung feststellen, dass der niedrigere \"Ausgangs-druck\" einen deutlich höheren Risikofaktor darstellt, was auch logisch erscheint. Eine Gabe von GTN bei einem systolischen Blutdruck &lt;90mmHg gilt ja auch bekanntermaßen als Kontraindikation.</p><p>Insgesamt ist das absolute Risiko auf Verabreichung von \"Nitro-Spray\" einen Blutdruckabfall zu erleiden bei Patienten mit Brustschmerz also nicht sehr hoch, bei zusätzlich bestehender Tachykardie signifikant höher.</p><p><br></p><p>Literatur:<br>Khan GM. Open Heart 2015;2:e000226</p><p><br></p><p>KK</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqjOKgguV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-5h"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal-Effekt\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay-Farbe\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Transparenz\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2016 • notfallmedizin.blog • KLEMM K • All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqjOLvnJO",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-5k"
+        }
+      ]
+    },
+    "cointox.html": {
+      "settings": {
+        "meta_descr": "notfallmedizin.blog, CO-Intox, Kohlenmonoxidvergiftung, xABCDEF, cABCDEF, xABCDE, cABCDE, ABCDE",
+        "title": "CO-Intox",
+        "order": 18,
+        "meta_image": "@PROJECT_PATH@/assets/images/firefighters-870888-436x290.jpg"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">Kohlenmonoxidvergiftung</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">Vergiftungen mit CO führen immer wieder zu Unsicherheit. Grund genug, hier mal ein paar Fakten dazu zusammenzutragen.</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">MEHR INFO</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqknzfqNh",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-5l"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>Die tödliche Wirkung ist seit der Antike bekannt: Griechen und Römer setzten es bereits für Hinrichtungen ein und auch über Selbsttötungen mithilfe von CO wird berichtet.&nbsp;</p><p><span style=\"font-size: 1rem;\">CO ist ein geruch- und geschmacksloses Gas ohne Reizkomponente und wird für den Menschen gefährlich, da es im Vergleich zu Sauerstoff eine 200 - 300-fach höhere Affinität zu Hb hat, wodurch der Sauerstofftransport behindert und die Bindung von O2 zu Hb verstärkt wird, sodass auch die Abgabe erschwert ist (Haldane-Effekt). Bereits  0,1% CO in der Raumluft können eine tödliche CO-Intoxikation verursachen.</span></p><p>Die Symptome sind recht unspezifisch und nicht nur vom tatsächlichen CO-Hb-Gehalt abhängig, sondern v.a. auch vom Gesundheitszustand (KHK, COPD, Anämie), dem Atemminutenvolumen und der Expositionsdauer.</p><p>Prinzipiell ensteht CO bei JEDER Verbrennung, v.a. aber bei der unvollständigen Verbrennung kohlenstoffhaltiger Substanzen:</p><p>• Kohle</p><p>• Erdölprodukte (Benin, Kerosin, Heizöl)</p><p>• Holz</p><p>• Kunstoffe</p><p>• Erdgas</p><p><br></p><p>Die Diagnose wird klinisch gestellt, entscheidend ist, überhaupt daran zu denken!</p><p>Falls eine CO- oder CO-Hb-Messung verfügbar ist, umso besser, aber die Klinik führt!</p><p><span style=\"font-size: 1rem;\">• Bewußtlosigkeit</span><br></p><p>• Kopfschmerz</p><p>• Druckgefühl und/oder Schmerzen in der Brust</p><p>• Übelkeit, Schwindel</p><p>• Plötzlicher Hörverlust im Zusammenhang mit Rauch/Gas</p><p><br></p><p>Der Zusammenhang zwischen Symptomen und CO-Hb-Spiegel ist unsicher.</p><p>Folgende Aussagen scheinen aber Gültigkeit zu haben:&nbsp;</p><p>• je mehr CO-Hb, desto ausgeprägter die Symtomatik</p><p>• je mehr oder schwerwiegender die Begleiterkrankungen (KHK, COPD, Anämie) desto schwerwiegender die Symptomqtik</p><p>• ungeborene und Säuglinge sind besonders gefährdet (HbF)</p><p><br></p><p>Hb-CO Anzeichen, Symptome</p><p>3 - 5 %     Verminderung der körperl. Leistungsfähigkeit&nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Bei Herzkranken können bereits Beschwerden ausgelöst werden&nbsp;</p><p>5 - 15 %   leichte, aber durch Messungen feststellbare Sehschwäche</p><p>10 - 20 % leichte Kopfschmerzen, Müdigkeit, Unwohlsein, Herzklopfen</p><p>20 - 30 % Schwindel, Bewußtseinstrübung, Schlaffheit/Lähmungen</p><p>30 - 40 % Rosa-Färbung der Haut, Bewußtseinsverlust, Kreislaufkollaps</p><p>40 - 60 % tiefe Bewußtlosigkeit, Lähmungen, Körpertemperatur sinkt</p><p>60 - 70 % tödlich in 10 Minuten bis 1h</p><p>über 70 % tödlich in wenigen Minuten&nbsp;</p><p><br></p><p>Bei Rauchern können durch Gewöhnung Werte bis 10% erreicht werden, einzelne Fälle bis 20% ohne Symptome sind beschrieben.</p><p><br></p><p><b>Therapie</b></p><p>Sofortmaßnahmen:</p><p>• Sauerstoffgabe (n.Möglichkeit 100 % O2(Reservoir!!!), FiO2 1,0)&nbsp;</p><p>• ggf. Intubation mit FiO2 1,0 + PEEP bis zum Ausschluss einer CO-Intoxikation</p><p>• bei Bronchospasmus Betasympathomimetika inhalativ</p><p>• Kortikoide können derzeit nicht empfohlen werden</p><p>• Heparin p.inhal. bisher kein Standard, aber vielversprechend</p><p>• hyperbaren Oxygenierung (Druckkammer) v.a. bei CO-Hb &gt; 20% + D-Problemen</p><p><br></p><p>Die Halbwertszeit für CO beträgt unter Raumluft 320 min</p><p>Unter einer FiO2 von 1,0 etwa 80 min</p><p>Unter hyperbarer Oxygenierungstherapie (HBO) bei 3 bar 23 min&nbsp;</p><p><br></p><p>ACHTUNG - die immer wieder im Zusammenhang mit CO angeführte kirschrote Hautfarbe gilt nur für die <b>postmortale</b> Diagnostik. Lebende Patienten mit CO-Intoxikation haben ein eher blass-fahles bis gräulich-blasses Hautkolorit.</p><p><span style=\"font-size: 1rem;\">Daher ist es umso wichtiger, eine genaue Anamnese des Unfallhergangs zu erheben.</span><br></p><p>Die Sicherung der Diagnose erfolgt durch eine Bestimmung des CO-Hb-Spiegels.</p><p><br></p><p>Die üblich eingesetzte Pulsoxymetrie schließt eine CO-Intoxikation nicht aus.&nbsp;</p><p>COHb wird in der spO2-Messung fälschlich als funktionelles O2Hb fehlgedeutet.&nbsp;</p><p>Neuere Pulsoxymeter können hier bereits unterscheiden.</p><p><br></p><p>Typische hellrote Leichenflecken am Rücken und Gesicht, rosarote Schleimhäute, rötliches Gewebe unter den Fingernägeln sowie lachsrote Muskulatur sollten dringend an eine CO-Intoxikation als Todesursache denken lassen und entsprechend den sofortigen Eigenschutz mit Expositionsbeendigung nach sich ziehen.</p><p>Ein CO-Warngerät sollte im Rettungsdienst unbedingt getragen werden.</p><p><br></p><p>Literatur:<br><span style=\"font-size: 1rem;\">Pharmakologie und Toxikologie, 2001<br></span><span style=\"font-size: 1rem;\">Rechtsmedizin 2008 · 18:392–396<br></span><span style=\"font-size: 1rem;\">Notfall Rettungsmed 2010 · 13:17–22<br></span><span style=\"font-size: 1rem;\">Rechtsmedizin 2015 · 25:101–106<br></span><span style=\"font-size: 1rem;\">Notfall Rettungsmed 2015 · 18:833–903<br></span><span style=\"font-size: 1rem;\">Kongress der Deutschen Gesellschaft für Pneumologie und Beatmungsmedizin (DGP), März 2016</span></p><p><br></p><p>KK</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqknzPS1p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-5m"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal-Effekt\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay-Farbe\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Transparenz\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2016 • notfallmedizin.blog • KLEMM K • All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqknA8Qw5",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-5n"
+        }
+      ]
+    },
+    "fehler.html": {
+      "settings": {
+        "meta_descr": "notfallmedizin.blog, CRM, Human Factors, Fehlermanagement, xABCDEF, cABCDEF, xABCDE, cABCDE, ABCDE",
+        "title": "CRM human factors",
+        "order": 19,
+        "meta_image": "@PROJECT_PATH@/assets/images/alarm-1644173-436x306.jpg"
+      },
+      "components": [
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content4",
+          "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Titel Anzeigen\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Untertitel Anzeigen\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons Anzeigen\" name=\"showButtons\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">CRM &amp; Human Factors</h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\">„Medicine used to be simple, ineffective and relatively safe. <br>Now it is complex, effective and potentially dangerous.“ <br>ChantlerC, 1999: Lancet 353:1178–1181</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.co\">MEHR INFO</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.co\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqlC3tlHd",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content4-5o"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>70% der Ursachen von Zwischenfällen sowohl in der Medizin als auch in der Luftfahrt liegen im Bereich der „HUMAN FACTORS“</p><p>Daher haben wir hier noch einmal einige der wichtigsten Fakten zusammengetragen:</p><p><br></p><p><b>Das 10-für-10-Prinzip:</b></p><p>Beim Auftreten von neuen Diagnosen, Problemen oder Chaos sollte das gesamte Team zu einer kurzen Unterbrechung (fast) aller Tätigkeiten aufgefordert werden, um alle Informationen für das Team zusammenzutragen, Ideen und ggf. Bedenken vorzutragen. Es wird ein Entschluss gefasst und die Ressourcen entsprechend verteilt.</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqlC49ad3",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-5p"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(0deg, @color2, @bgColor)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Breite\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"65\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Farbverlauf\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Farbe 2\" name=\"color2\" value=\"#cc2952\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto-2016-10-16-um-13.41.59.png\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Erstellen Sie fantastische Websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
+          "_anchor": "image3-5r",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rRqm8NkGoo",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>FOR-DEC - Dynamic Decision Making (Lufthansa CRM)</p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqmotdFaT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-5t"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(0deg, @color2, @bgColor)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image3",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full-Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"0\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Text Anzeigen\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Breite\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"65\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Farbverlauf\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Farbe 2\" name=\"color2\" value=\"#cc2952\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/bildschirmfoto-2016-10-16-um-13.42.12.png\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                        Erstellen Sie fantastische Websites!\n                    </div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
+          "_anchor": "image3-5s",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "rRqmhOQfXz",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"Hintergrundfarbe\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p><span style=\"font-size: 1rem;\"><b>Die 15 CRM-Leitsätze (nach Rall/Gaba)</b></span><br></p><p><span style=\"font-size: 1rem;\">• Kenne Deine Arbeitsumgebung.</span><br></p><p>• Antizipiere und plane voraus.</p><p>• Fordere Hilfe an, lieber früh als spät.</p><p>• Übernimm die Führungsrolle oder sei ein gutes Teammitglied mit Beharrlichkeit.</p><p>• Verteile die Arbeitsbelastung  (10-für-10-Prinzip)</p><p>• Mobilisiere alle verfügbaren Ressourcen (Personen und Technik).</p><p>• Kommuniziere sicher und effektiv – sag was Dich bewegt.</p><p>• Beachte und verwende alle vorhandenen Informationen.</p><p>• Verhindere und erkenne Fixierungsfehler.</p><p>• Habe Zweifel und überprüfe genau („double check“, nie etwas annehmen).</p><p>• Verwende Merkhilfen und schlage nach.</p><p>• Reevaluiere die Situation immer wieder  (10-für-10-Prinzip)</p><p>• Achte auf gute Teamarbeit – andere unterstützen und sich koordinieren.</p><p>• Lenke deine Aufmerksamkeit bewusst.</p><p>• Setze Prioritäten dynamisch.</p><p><br></p><p><b>Fehlermanagement mit POKA-YOKE:</b></p><p>• Fehler sind nicht zu verhindern, da Menschen nicht fehlerfrei arbeiten können</p><p>• Schäden hingegen schon, da Fehler erkannt und Vorkehrungen zur Prävention eines Schadens getroffen werden können.</p><p><br></p><p>Vor allem in der Notfallmedizin, die per se zeitkritisch ist, hat man oft mit völlig unklaren Situationen, nicht kommunikationsfähigen Patienten in einer fremden Umgebung und nicht zuletzt mit meist unbekannten Teammitgliedern zu tun. Ebenso wie die Luftfahrt oder Nuklearindustrie ist sie also ein Hochrisikobereich:&nbsp;</p><p><b>Medizinische Behandlungsfehler zählen zu den 10 häufigsten Todesursachen weltweit.</b></p><p>Studien belegen, dass Maßnahmen zur Fehlerreduktion dann am Besten greifen, wenn sie auf das System und nicht auf das Individuum abzielen: ein Risiko- oder Fehlermanagement sollte also immer auf ein „WARUM ist das passiert“ und nicht auf ein „WER war das“ abzielen. Eine sogenannte „name blame shame“-Kultur ist zudem nicht sonderlich begünstigend im Hinblick darauf, dass Fehler auch offengelegt und zugegeben werden.</p><p>Des Weiteren konnte gezeigt werden, dass es sich bei Zwischenfällen oftmals nicht um mangelnde „technical skills“, also tatsächlich fehlendes Können (oder Wissen) handelte, sondern dass Fehler als Verkettung mehrerer Ursachen entstehen und es zumeist an „soft skills“ wie z.B. Kommunikation und Organisation fehlte.</p><p>Hier findet ihr nun eine Übersicht über v.a. in der Notfallmedizin häufige Fehler:</p><p><br></p><p><b>Alarmierung</b></p><p>Eine Alarmierung / Alarmgrenze sollte nicht so nierigschwellig gewählt sein, dass sie zunehmend ignoriert wird.</p><p><br></p><p><b>Interferenz-/Stroop-Effekt</b></p><p>Inkongruente Informationen erhöhen sowohl die Reaktionszeit als auch die Fehlerrate.</p><p><br></p><p><b>Bottleneck-Effekt</b></p><p>Das Sprachverständnis leidet wenn gleichzeitig eine psychomotorische Tätigkeit ausgeführt wird. Bei Weitergabe wichtiger Informationen sollte die Aufmerksam allein auf diese gerichtet sein.&nbsp;</p><p>z.B. Patienten erst überlagern, dann übergeben, 10-for-10 usw.</p><p><br></p><p><b>Fixierungsfehler</b></p><p>In Simulationen konnte nachgewiesen werden, dass bei Vorgabe einer plausiblen aber falschen Arbeitsdiagnose z.B. seitengleiche Auskultationsbefunde als unterschiedlich wahrgenommen wurden - weil man es so erwartete.</p><p><br></p><p><b>Übergabe / Schichtwechsel</b></p><p>Als typische Fehlerquelle konnten neben einer unruhigen Umgebung und Störungen von Extern auch unstrukturiertes Vorgehen identifiziert werden. &nbsp;Abhilfe:&nbsp;<span style=\"font-size: 1rem;\">Übergabeprotokolle, Checklisten</span></p><p><br></p><p><b>Technik-/Industrie-Design</b></p><p>Vielen kognitiven Fehlern kann begegnet werden, wenn das Design in der einfachsten Form vorliegt.</p><p>Farbcodierung, Größenunterschiede, Vermeidung gleichklingender Namen.</p><p><br></p><p><b>Kommunikation</b></p><p>Sprachliche Äußerung in CPR-Situationen erwiesen sich nur in 56% als hörbar und in 44% als verständlich. Zudem verschwanden Aufforderungen ohne Adressat im Raum, da jedes Teammitglied dachte, ein anderer macht‘s. Weiterhin war zu beobachten, dass die Informationsweitergabe im Verlauf abnimmt und dem Team somit ggf. kritische Informationen fehlten.</p><p><br></p><p><b>„Talking to the room“</b> kann somit in zweierlei Hinsicht beurteilt werden: positiv beim Verteilen von Informationen (10-for-10), um das gesamte Team mit einzubeziehen (laute und deutlich Wiedergabe von Befunden an das Team z.B. „Lunge seitengleich belüftet, ,Rekap‘ prompt, Pupillen isokor),  negativ bei Arbeitsaufträgen ohne Adressat („Wir brauchen hier nochmal eine BGA“)&nbsp;</p><p>Team-Mitglieder fühlen sich durch eine offene Kommunikation mit einbezogen, können Befunde und Entscheidungen besser nachvollziehen, ihre eigene Erfahrung einbringen und auch entsprechend korrigierend eingreifen. Teams, die sich in stressigen Situationen permanent austauschen, sind bei der Bewältigung dieser Situationen erfolgreicher.</p><p>&nbsp;</p><p><b>Closed-loop Kommunikation</b></p><p>Nach Aufforderung an ein Team-Mitglied, sollte die vollständige Bestätigung des Arbeitsauftrages erfolgen, um dem Sender ein Feedback zu geben, dass der Empfänger die Aufforderung nicht nur gehört sondern auch verstanden hat und somit ein „Gib mal 50“ - „Alles klar“ nicht im Desaster endet.</p><p><br></p><p><b>Risky-shift Phänomen</b></p><p>Ein Team entscheidet in der Regel risikofreudiger als eine Einzelperson, da sich auch die Verantwortung auf mehrere Schultern verteilt.</p><p><br></p><p>Es konnten 3 Faktoren identifiziert wertden, die Sicherheitskultur im Krankenhaus beeinflussen:</p><p>„management support“</p><p>ein geeignetes Reporting-System (z.B.CIRS)</p><p>adäquate Ressourcen</p><p><br></p><p>Um sich des Potenzials eines Teams auch bedienen zu können ist eine Grundvoraussetzung, dass sämtliche Teammitglieder auch über alle verfügbaren Fakten und Optionen informiert sind. Im Rahmen des GIHRE-Projektes(Group Interaction In High Risk Environment) wurden folgende Regeln dazu formuliert.</p><p>• frühzeitig Informationen einholen &amp; austauschen</p><p>• Transparenz erhöhen, (Tages)Ziele formulieren</p><p>• ausgepägtes Führungsverhalten in komplexen Situationen, nicht bei Routinetätigkeiten</p><p>• Trennung von Führung und Umsetzung in akuten Situationen a Reduktion von Multitasking</p><p>• Sprachliche Stärkung des Teamgedankens („Wir“)</p><p>• Probleme ansprechen</p><p>• explizite Kommunikation v.a. unerfahrener Teammitglieder</p><p>• Koordination des Team je nach Situation implizit in der Routine, explizit in Akutsituationen</p><p>• Interaktion: Perspektiven anderer Teammitglieder einnehmen, Überlegungen laut aussprechen</p><p>• SOPs, Vorgaben, Regeln als Hilfestellung mit genügend Freiraum</p><p>• Team-Briefings zur Entwicklung eines gemeinsamen mentalen Modells</p><p>• offene Gesprächsatmosphäre, explizite Kommunikation an Teamerfahrung anpassen</p><p>• neue Mitarbeiter ermutigen und bestärken, De-Briefings zur (Re-)Evaluierung</p><p>• Give a verbal nod / Closing the loop</p><p>• einfache Sprache verwenden, W-Fragen vermeiden</p><p>• Reden ist gut, noch mehr reden besser</p><p>• Kommunikation in der Muttersprache</p><p>• das Sprachverständnis wird bei parallel ausgeführter Tätigkeit gehemmt</p><p>• laute und deutliche Kommunikation + close the loop</p><p>• Etablieren eines gemeinsamem Kommunikationsstils</p><p>• Gruppeninteraktionsprozesse berücksichtigen</p><p><br></p><p>Die (risikobereinigte) Mortalitätsrate kann um 50% gesenkt werden, wenn Simulations-Trainings durchgeführt werden, die die Etablierung von Checklisten und die Einführung von Briefings/Debriefings beinhalten!</p><p><br></p><p><br></p><p>Literatur:<br>Notfall Rettungsmed 2012 · 15:9–15<br><span style=\"font-size: 1rem;\">M. St.Pierre et al, Notfallmanagement, DOI 10.1007/978-3-642-16881-9</span></p><p><span style=\"font-size: 1rem;\"><br></span></p><p><span style=\"font-size: 1rem;\">KK</span></p></div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqmzQbGHf",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content1-5u"
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            }
+          },
+          "_name": "footer6",
+          "_customHTML": "<section group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Oben\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Unten\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal-Effekt\" name=\"reveal\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Hintergrundbild\" value=\"../_images/background5.jpg\">\n            <input type=\"color\" title=\"Hintergrundfarbe\" value=\"#2e2e2e\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay-Farbe\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Transparenz\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2016 • notfallmedizin.blog • KLEMM K • All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rRqlC4x7cQ",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {},
+          "_anchor": "footer6-5q"
         }
       ]
     }
