@@ -48,7 +48,7 @@
     "uniqCompNum": 259,
     "versionPublish": "4.11.5",
     "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/klemmedic.gif",
+    "favicon": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -84,8 +84,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "notfallmedizin.blog",
-        "meta_descr": "NOTFALLMEDIZIN.BLOG\nFOAMed • Free Open Access Medical Education •\nKLEMM Karsten, Facharzt für Anästhesiologie & Notfallmedizin, Leitender Oberarzt am Zentrum für Notfall- und Akutmedizin, Marienkrankenhaus Hamburg",
+        "title": "notfallmedizin.blog - Eine notfallmedizinische Online-Fort- und Weiterbildungsplattform",
+        "meta_descr": "NOTFALLMEDIZIN.BLOG\nFOAMed • Free Open Access Medical Education •Themen aus Anästhesiologie, Intensivmedizin, Notfallmedizin, Rettungsmedizin, Anästhesie, OP, ICU, ZNA, ED, Schockraum, KLEMM K",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
