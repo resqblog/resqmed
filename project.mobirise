@@ -5028,10 +5028,10 @@
     },
     "aks.html": {
       "settings": {
-        "meta_descr": "Aortenklappenstenose - leicht erklärt",
+        "meta_descr": "notfallmedizin.blog - Die Aortenklappenstenose",
         "title": "AKS",
         "order": 3,
-        "meta_image": "@PROJECT_PATH@/assets/images/puzzle-3223941-960-720-436x264.jpg"
+        "meta_image": "@PROJECT_PATH@/assets/images/mbr-1.jpg"
       },
       "components": [
         {
