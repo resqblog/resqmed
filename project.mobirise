@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "notfallmedizin.blog",
-    "currentPage": "index.html",
+    "currentPage": "aks.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -5026,9 +5026,9 @@
         }
       ]
     },
-    "page25.html": {
+    "aks.html": {
       "settings": {
-        "meta_descr": "xABCDEF, cABCDEF, xABCDE, cABCDE, ABCDE",
+        "meta_descr": "Aortenklappenstenose - leicht erklärt",
         "title": "AKS",
         "order": 3,
         "meta_image": "@PROJECT_PATH@/assets/images/puzzle-3223941-960-720-436x264.jpg"
